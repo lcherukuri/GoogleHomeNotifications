@@ -4,6 +4,8 @@ const request = require('request');
 googlehome.ip('192.168.86.55', 'en');
 googlehome.device('Lokesh.GoogleHome');
 
+googlehome.notify("Hi Lokesh! Testing 1 2 3", function(res) { });
+
 function run() {
   request('https://api.coinbase.com/v2/prices/USD/spot', { json: true }, (err, res, body) => {
     if (err) { return console.log(err); }
