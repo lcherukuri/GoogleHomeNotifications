@@ -19,10 +19,11 @@ function run() {
   });
 }
 
+// Run every 60 min
 setInterval(() => {
   var date = new Date();
   var current_hour = date.getHours();
   if (current_hour >= 7) { // Don't Disturb during sleeping hrs
     run();
   }
-}, 900000);
+}, 3600000);
