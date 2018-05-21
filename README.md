@@ -22,4 +22,5 @@ Login to raspberry pi with terminal/command line and type following commands
   - `npm install`
   - `sudo npm install forever -g`
   - `forever start app.js`
-      (this will run process in the background. If you want to stop use command `forever start app.js`)
+      (this will run process in the background. If you want to stop, use command `forever start app.js`)
+      
