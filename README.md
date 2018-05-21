@@ -7,6 +7,7 @@
 I expect that you have running pi. If not find a youtube video for that pi setup process.
 
 ## Notifications Setup
+Login to raspberry pi with terminal/command line and type following commands
   - `curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -`
   - `sudo apt-get install -y nodejs`
   - `sudo apt-get install git-core libnss-mdns libavahi-compat-libdnssd-dev`
