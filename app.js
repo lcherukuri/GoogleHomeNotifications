@@ -1,7 +1,7 @@
 var googlehome = require('google-home-notifier');
 const request = require('request');
 
-googlehome.ip('192.168.86.55', 'en');
+googlehome.ip('192.168.86.88', 'en');
 googlehome.device('Lokesh.GoogleHome');
 
 googlehome.notify("Hi Lokesh! Testing 1 2 3", function(res) { });
