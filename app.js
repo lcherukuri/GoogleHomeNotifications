@@ -5,6 +5,7 @@ googlehome.ip('192.168.86.88', 'en');
 googlehome.device('Lokesh.GoogleHome');
 
 googlehome.notify("Hi there! Testing 1 2 3", function(res) { });
+run();
 
 function run() {
   request('https://api.coinbase.com/v2/prices/USD/spot', { json: true }, (err, res, body) => {
