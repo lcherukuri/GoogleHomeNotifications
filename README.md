@@ -4,9 +4,9 @@
 1. Google Home/Mini
 2. Raspberry pi
 
-I expect that you have running pi. If not find a youtube video for that pi setup process.
+I expect that you have running pi. If not find a youtube video for the pi setup process.
 
-## Notifications Setup
+## Notifications Setup 
 Login to raspberry pi with terminal/command line and type following commands
   - `curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -`
   - `sudo apt-get install -y nodejs`
