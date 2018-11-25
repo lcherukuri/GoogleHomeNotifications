@@ -26,4 +26,4 @@ setInterval(() => {
   if (current_hour >= 7) { // Don't Disturb during sleeping hrs
     run();
   }
-}, 3600000);
+}, 10000);

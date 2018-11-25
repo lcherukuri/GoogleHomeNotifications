@@ -9,7 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "google-home-notifier": "^1.2.0",
+    "body-parser": "^1.15.2",
+    "castv2-client": "^1.1.2",
+    "express": "^4.14.0",
+    "google-tts-api": "0.0.3",
+    "mdns": "^2.4.0",
+    "ngrok": "^2.2.4",
     "request": "^2.86.0"
   }
 }
