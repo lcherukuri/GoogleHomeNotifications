@@ -1,4 +1,4 @@
-var googlehome = require('google-home-notifier');
+var googlehome = require('./google-home-notifier');
 const request = require('request');
 
 googlehome.ip('192.168.86.88', 'en');
